@@ -1,12 +1,12 @@
 [gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://KinematicBody2D.gd" type="Script" id=1]
-[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://player.png" type="Texture" id=2]
 [ext_resource path="res://grass-ground.png" type="Texture" id=3]
 [ext_resource path="res://mountains.png" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 31.4632, 31.7778 )
+extents = Vector2( 10.8917, 12.7288 )
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 16.0835, 12.3775 )
