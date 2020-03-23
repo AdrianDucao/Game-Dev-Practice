@@ -592,6 +592,11 @@ scale = Vector2( 0.938509, 0.77126 )
 texture = ExtResource( 4 )
 
 [node name="mountains3" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 2091.61, 384.378 )
+position = Vector2( 2091.61, 373.881 )
+scale = Vector2( 0.938509, 0.77126 )
+texture = ExtResource( 4 )
+
+[node name="mountains4" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( -711.435, 394.862 )
 scale = Vector2( 0.938509, 0.77126 )
 texture = ExtResource( 4 )
