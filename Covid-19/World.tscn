@@ -3,10 +3,10 @@
 [ext_resource path="res://KinematicBody2D.gd" type="Script" id=1]
 [ext_resource path="res://player.png" type="Texture" id=2]
 [ext_resource path="res://grass-ground.png" type="Texture" id=3]
-[ext_resource path="res://mountains.png" type="Texture" id=4]
+[ext_resource path="res://mountains2.png" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 10.8917, 12.7288 )
+extents = Vector2( 8.20154, 12.5275 )
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 16.0835, 12.3775 )
@@ -14,7 +14,7 @@ extents = Vector2( 16.0835, 12.3775 )
 [node name="World" type="Node2D"]
 
 [node name="Player" type="KinematicBody2D" parent="."]
-position = Vector2( 507.705, 256.994 )
+position = Vector2( 507.705, 298.105 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
@@ -586,17 +586,12 @@ shape = SubResource( 2 )
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 
-[node name="mountains" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 523.705, 288.994 )
-scale = Vector2( 0.982976, 1.21256 )
-texture = ExtResource( 4 )
-
 [node name="mountains2" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 1541.27, 288.994 )
-scale = Vector2( 0.982976, 1.21256 )
+position = Vector2( 685.266, 384.378 )
+scale = Vector2( 0.938509, 0.77126 )
 texture = ExtResource( 4 )
 
 [node name="mountains3" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 2572.7, 288.994 )
-scale = Vector2( 0.982976, 1.21256 )
+position = Vector2( 2091.61, 384.378 )
+scale = Vector2( 0.938509, 0.77126 )
 texture = ExtResource( 4 )
